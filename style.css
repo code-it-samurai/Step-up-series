@@ -1,0 +1,162 @@
+.navbar{
+  height: 70px;
+  display:flex;
+  justify-content: space-between;
+  position: sticky;
+  background-color: #171717;
+  top: 0;
+  z-index: 10;
+}
+
+.nav-list{
+  display:flex;
+}
+
+.nav-item{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.nav-link{
+  color:blue;
+  font-size: 20px;
+}
+
+.navbar-brand{
+  font-size: 25px;
+}
+
+@media (max-width:760px) {
+  body{
+   background-color: brown; 
+  }
+  .title-image {
+    z-index: 20;
+    width: 100%;
+  }
+  .title-img-div {
+    background: transparent;
+    position: fixed;
+    width: 100%;
+    z-index: -1;
+  }
+  .empty-div {
+    height: 214px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .main-title {
+    font-style: italic;
+    font-family:'Overpass Mono', monospace;
+    font-size: 13px;
+    text-align: center;
+    align-self: center;
+    color: white;
+    position:fixed;
+    z-index: -1;
+    /*text-shadow: 0 0 10px rgba(0,0,0,0.5);*/
+  }
+  .dumbbell-title{
+    font-size: 50px;
+  }
+  .creator-title{
+    font-size: 20px;
+  }
+
+  .description {
+    padding: 5%;
+    background-color: #171717;
+    color: white;
+  }
+
+  .description-title {
+      font-size: 35px;
+      text-align: center;
+      margin-bottom: 30px;
+  }
+  .description-btns{
+    display:flex;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    justify-content: space-around;
+  }
+  .description-unnecessary{
+    font-size: 20px;
+    margin-bottom:  20px;
+  }
+  .carousel-container-div{
+    background: white;
+    padding-top: 10px;
+    margin: 0;
+    padding: 7% 15%;
+    height:500px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    text-align: center;
+  }
+  .user-manual{
+    padding: 5%;
+    background-color: #171717;
+    color: white;
+  }
+  .user-manual-title{
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .features{
+    padding: 5%;
+    color: black;
+    background-color: white;
+  }
+  .font-22{
+    font-size: 22px;
+  }
+  .font-18{
+    font-size: 19px;
+  }
+  .contact{
+    height:500px;
+    background:#171717;
+    padding-top: 30px;
+    color:white;
+  }
+  .contact-title{
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .id-div{
+    display: flex;
+    flex-direction: row;
+  }
+  .id-img{
+    border-radius: 50%;
+    height: 200px;
+  }
+  .id-name{
+    margin:10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .id-name-name{
+    font-size: 35px;
+  }
+  .contact-dets{
+    margin-top: 30px;
+  }
+  .contact-dets-title{
+    font-weight: bold;
+    font-size: 22px;
+    margin:20px;
+  }
+  .contact-dets-info{
+    font-size: 20px;
+    letter-spacing: 2px;
+  }
+}
