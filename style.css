@@ -3,6 +3,11 @@ body {
     margin: 0;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+.body::-webkit-scrollbar {
+    display: none;
 }
 .navbar{
   height: 70px;
@@ -164,12 +169,16 @@ body {
 }
 
 @media only screen and (max-width: 600px)  {
-  body{
+  body {
     padding: 0;
     margin: 0;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    overflow-x: hidden;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+  .body::-webkit-scrollbar {
+    display: none;
   }
   .title-image {
     z-index: 20;
