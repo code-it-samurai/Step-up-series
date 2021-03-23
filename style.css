@@ -1,3 +1,9 @@
+body {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
 .navbar{
   height: 70px;
   display:flex;
@@ -160,9 +166,10 @@ body{
   letter-spacing: 2px;
 }
 
-@media only screen and (max-width: 700px)  {
+@media only screen and (max-width: 600px)  {
   body{
     background-color: brown; 
+    overflow-x: hidden;
   }
   .title-image {
     z-index: 20;
@@ -175,7 +182,7 @@ body{
     z-index: -1;
   }
   .empty-div {
-    height: 214px;
+    height: 40vw;
     width: 100%;
     display: flex;
     align-items: center;
@@ -193,7 +200,7 @@ body{
     /*text-shadow: 0 0 10px rgba(0,0,0,0.5);*/
   }
   .dumbbell-title{
-    font-size: 50px;
+    font-size: 40px;
   }
   .creator-title{
     font-size: 20px;
