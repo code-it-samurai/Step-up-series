@@ -176,6 +176,8 @@ body {
     box-sizing: border-box;
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
+    height:100%;
+    width:100%;
   }
   .body::-webkit-scrollbar {
     display: none;
