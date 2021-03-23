@@ -31,9 +31,6 @@ body {
 .navbar-brand{
   font-size: 25px;
 }
-body{
-   background-color: brown; 
-  }
 .title-image {
   z-index: 20;
   width: 100%;
@@ -168,7 +165,10 @@ body{
 
 @media only screen and (max-width: 600px)  {
   body{
-    background-color: brown; 
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
     overflow-x: hidden;
   }
   .title-image {
